@@ -3,8 +3,8 @@ import TransitionLink from "./TransitionLink";
 const Navigation = () => {
   return (
     <header>
-      <nav className="flex justify-between bg-blue-700 text-white p-6 text-3xl">
-        <h1>Style Guide</h1>
+      <nav className="flex justify-between bg-[#ffffb9] text-black p-6 text-3xl">
+        <h2>Style Guide</h2>
 
         <div className="flex gap-5 text-lg ">
           <TransitionLink href="/" label="Home" />

@@ -26,11 +26,13 @@ const TransitionLink = ({ href, label, src }: Props) => {
           src={src}
           alt=""
           className="
+          rounded-lg
           border-4 border-transparent 
           transition-all duration-300 
           group-hover:scale-105 
           group-hover:opacity-80 
-          group-hover:border-blue-500
+          group-hover:border-[#ffe86a]
+         h-25
         "
         />
       )}

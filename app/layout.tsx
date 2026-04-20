@@ -2,6 +2,13 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navigation from "./components/Navigation";
+import { DM_Sans } from "next/font/google";
+
+const dmSans = DM_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-dm-sans",
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,11 +33,13 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${dmSans.variable} h-full antialiased bg-[#c3bcff]`}
     >
       <body className="min-h-full flex flex-col">
         <Navigation />
-        <main className="w-1/2 mx-auto p-1">{children}</main>
+        <main className="w-1/2 mx-auto p-1 ${dmSans.className} ">
+          {children}
+        </main>
       </body>
     </html>
   );

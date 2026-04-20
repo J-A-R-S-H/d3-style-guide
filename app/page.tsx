@@ -2,6 +2,10 @@
 
 import TransitionLink from "./components/TransitionLink";
 
+import typographyPage from "./images/typography-page.png";
+import colorPage from "./images/color-page.png";
+import imageryPage from "./images/imagery-page.png";
+
 export default function Home() {
   return (
     <section>
@@ -28,24 +32,20 @@ export default function Home() {
         <div className="transition-transform duration-300 ease-in-out hover:scale-105 hover:-translate-y-2">
           <TransitionLink
             href="/typography"
-            label="Typograpy"
-            src="https://www.vistaprint.com/hub/wp-content/uploads/sites/14/2025/08/featured-92317261000128321-1284x600.jpg"
+            label="Typography"
+            src={typographyPage.src}
           />
         </div>
 
         <div className="transition-transform duration-300 ease-in-out hover:scale-105 hover:-translate-y-2">
-          <TransitionLink
-            href="/colors"
-            label="Colors"
-            src="https://www.vistaprint.com/hub/wp-content/uploads/sites/14/2025/08/featured-92317261000128321-1284x600.jpg"
-          />
+          <TransitionLink href="/colors" label="Colors" src={colorPage.src} />
         </div>
 
         <div className=" transition-transform duration-300 ease-in-out hover:scale-105 hover:-translate-y-2">
           <TransitionLink
             href="/iconography"
             label="Iconography"
-            src="https://www.vistaprint.com/hub/wp-content/uploads/sites/14/2025/08/featured-92317261000128321-1284x600.jpg"
+            src={imageryPage.src}
           />
         </div>
       </div>

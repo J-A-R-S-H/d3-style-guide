@@ -1,4 +1,5 @@
 import FadeIn from "../components/FadeIn";
+import Imagery from "../images/imagery.png";
 
 const page = () => {
   return (
@@ -8,13 +9,12 @@ const page = () => {
       </h1>
 
       <p>
-        Mosaics iconography features key elements to elevate our users
-        experience. We feature accessible, colour contrasting icons that feature
-        Mosaic's colour scheme: blue, orange, yellow, green, and purple. They
-        are complimented by white or black typography to compliment the icons
-        and comply with accessibility standards. The icons we use across Mosaic
-        come from Google Symbols, and both black and white versions are used to
-        make our app accessible.
+        Skillmatch’s iconography is crafted to elevate the user experience
+        through clarity and inclusivity. Our icons feature a high-contrast
+        palette of purple and yellow, paired with crisp white or black
+        typography to ensure full compliance with accessibility standards. By
+        leveraging the Google Symbols library, we utilize both black and white
+        icon variations to guarantee optimal readability across all interfaces.
       </p>
 
       <FadeIn as="section" className="mt-10">
@@ -26,10 +26,13 @@ const page = () => {
               Button Icons
             </h3>
             <p>
-              Our logo is the most recognizable and iconic way to signal the
-              Discord brand. From smaller sign-offs to large, display
-              executions, the following section outlines how our logo can adapt
-              for different situations, formats, and communications.﻿
+              Our icons library provides a clear, consistent visual language
+              designed to streamline event management. By using recognizable
+              icons for core actions—like creating, editing, and tracking
+              events—these buttons allow users to navigate complex workflows at
+              a glance. They ensure that every interaction is intuitive,
+              predictable, and efficient, helping organizers manage their events
+              with ease.
             </p>
           </div>
           <div className="grid grid-cols-3 gap-3">
@@ -58,25 +61,15 @@ const page = () => {
         <h2 className="text-4xl font-bold text-blue-700">Imagery</h2>
         <div className="flex gap-8 mt-8 grid grid-cols-2">
           <div>
-            <h3 className="text-2xl font-bold text-blue-700 mb-5">
-              Buttons in Use
-            </h3>
-
             <p>
-              Mosaics imagery all comes from Pexels, being chosen by our AI when
-              a scenario is generated after completing the project
-              questionnaire. Each of our images contain the Mosaic colours blue,
-              orange, yellow, green and purple. Each images corner radius is set
-              to eight. The usage of these images sets the tone of each
-              project’s expectations upon the user and to motivate the user to
-              make each project their own, making their own mosaic, one project
-              at a time.
+              We selected our imagery to immediately set the right tone for the
+              user experience. We focused on high-quality, human-centric photos
+              that capture the energy and community of successful events.They
+              are chosen to inspire confidence, build trust, and help our users
+              visualize the memorable experiences they are capable of creating.
             </p>
           </div>
-          <img
-            src="https://di8m9w6rqrh5d.cloudfront.net/1zObrQ89Q4wHhgFCfYIUhMUvmNf4XjxO/resizable_c9224528-6823-4fb4-b344-a93c5399abd9.png?width=1600"
-            alt=""
-          />
+          <img src={Imagery.src} alt="" />
         </div>
       </FadeIn>
     </div>

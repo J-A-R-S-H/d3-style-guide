@@ -1,11 +1,16 @@
 @import "tailwindcss";
 
+@theme {
+  --color-black: #08000e; /* Changes all 'bg-black', 'text-black', etc. */
+}
+
+
 button { 
     cursor: pointer;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 p {
