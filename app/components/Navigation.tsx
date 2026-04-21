@@ -4,7 +4,7 @@ const Navigation = () => {
   return (
     <header>
       <nav className="flex justify-between bg-[#ffffb9] text-black p-6 text-3xl">
-        <h2>Style Guide</h2>
+        <TransitionLink href="/Home" label="SkillMatch Style Guide" />
 
         <div className="flex gap-5 text-lg ">
           <TransitionLink href="/" label="Home" />
