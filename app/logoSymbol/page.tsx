@@ -19,7 +19,7 @@ const page = () => {
           <h2 className="text-4xl font-bold text-blue-700 mb-5">Logo</h2>
           <p>
             Whether you're just starting out or still getting the hang of
-            things, our logo is the main way people recognize the Skill Match
+            things, our logo is the main way people recognize the SkillMatch
             brand. It’s like our digital calling card—it shows up everywhere,
             from tiny corners of an app to big posters. This guide explains how
             we tweak and use the logo so it looks great no matter where you put
@@ -134,7 +134,7 @@ const page = () => {
         <div>
           <h2 className="text-4xl font-bold text-blue-700 mb-5">Symbol</h2>
           <p>
-            Sometimes, we simplify things by using just the Skill Match symbol
+            Sometimes, we simplify things by using just the SkillMatch symbol
             <br />
             <br />
             You’ll mostly see the symbol hanging out on its own when there isn't
