@@ -18,11 +18,11 @@ const page = () => {
       </p>
 
       <FadeIn as="section" className="mt-10">
-        <h2 className="text-4xl font-bold text-blue-700">Icons</h2>
+        <h2 className="text-4xl font-bold text-[#7100CD]">Icons</h2>
 
         <div className="flex gap-8 mt-8 grid grid-cols-2">
           <div>
-            <h3 className="text-2xl font-bold text-blue-700 mb-5">
+            <h3 className="text-2xl font-bold text-[#7100CD] mb-5">
               Button Icons
             </h3>
             <p>
@@ -58,7 +58,7 @@ const page = () => {
         </div>
       </FadeIn>
       <FadeIn as="section" className="mt-10">
-        <h2 className="text-4xl font-bold text-blue-700">Imagery</h2>
+        <h2 className="text-4xl font-bold text-[#7100CD]">Imagery</h2>
         <div className="flex gap-8 mt-8 grid grid-cols-2">
           <div>
             <p>
