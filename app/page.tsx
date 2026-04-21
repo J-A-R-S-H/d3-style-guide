@@ -20,7 +20,7 @@ export default function Home() {
         across all channels by covering elements like logos, typography, color
         palettes
       </p>
-      <div className="grid grid-cols-3 text-xl font-bold mt-6 gap-5 mb-6">
+      <div className="grid grid-cols-4 text-xl font-bold mt-6 gap-5 mb-6">
         <div className="transition-transform duration-300 ease-in-out hover:scale-105 hover:-translate-y-2">
           <TransitionLink
             href="/logoSymbol"
